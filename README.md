@@ -1,16 +1,34 @@
-# React + Vite
+Entertainment Library 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+একটি আধুনিক এবং রেসপন্সিভ মুভি লাইব্রেরি প্ল্যাটফর্ম যেখানে ইউজাররা মুভি খুঁজে পেতে পারেন এবং অ্যাডমিনরা মুভি ম্যানেজ করতে পারেন। এটি React.js এবং Firebase ব্যবহার করে তৈরি করা হয়েছে।
 
-Currently, two official plugins are available:
+ফিচারসমূহ (Features)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+মুভি সার্চ এবং ফিল্টারিং: খুব সহজে ক্যাটাগরি অনুযায়ী মুভি খোঁজা যায়।
 
-## React Compiler
+অ্যাডমিন ড্যাশবোর্ড: মুভি আপলোড, এডিট এবং ডিলিট করার সুবিধা।
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+টেলিগ্রাম ইন্টিগ্রেশন: সরাসরি টেলিগ্রাম বট লিঙ্কের মাধ্যমে মুভি ডাউনলোড বা দেখার সুবিধা।
 
-## Expanding the ESLint configuration
+রিয়েল-টাইম ডাটাবেস: Firebase Firestore ব্যবহার করে ডাটা ম্যানেজমেন্ট।
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ডার্ক/লাইট মোড: আধুনিক UI ডিজাইন।
+
+টেকনোলজি স্ট্যাক (Tech Stack)
+
+Frontend: React.js, Tailwind CSS, Lucide Icons
+
+Backend/Database: Firebase Firestore & Auth
+
+Deployment: Vercel
+
+কিভাবে রান করবেন (Local Setup)
+
+১. রিপোজিটরি ক্লোন করুন: git clone https://github.com/akashtarofdar/entertainment-library.git
+২. ফোল্ডারে যান: cd entertainment-library
+৩. প্যাকেজ ইন্সটল করুন: npm install
+৪. প্রোজেক্ট রান করুন: npm run dev
+
+কন্ট্রিবিউশন
+
+আপনার কোনো পরামর্শ বা উন্নতি করার ইচ্ছা থাকলে নির্দ্বিধায় পুল রিকোয়েস্ট (Pull Request) পাঠাতে পারেন।
